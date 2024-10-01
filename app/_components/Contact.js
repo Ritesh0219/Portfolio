@@ -7,7 +7,7 @@ import { SiInstagram, SiLinkedin } from 'react-icons/si'
 
 function Contact() {
   return (
-    <div id='contact' className='bg-black flex flex-col items-center justify-center md:px-20 pb-10'>
+    <div id='contact' className='bg-black flex flex-col items-center  justify-center md:px-20 pb-15'>
         <p className='text-4xl font-semibold text-white'>Contact</p>
         <div className='flex gap-8 text-white mt-4 md:mt-6'>
        <a href='https://www.instagram.com/__riteshjadhav__/'> <SiInstagram className='cursor-pointer text-2xl md:text-4xl text-pink-500'/></a>

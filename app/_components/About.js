@@ -5,7 +5,7 @@ import TechList from './Skills'
 
 function About() {
   return (
-  <div id='about' className='flex flex-col gap-4  bg-black px-6 md:px-20 py-6 '>
+  <div id='about' className='flex flex-col gap-4  bg-black px-4 md:px-20 py-6 '>
     <p className='text-white text-2xl md:text-4xl font-semibold'>About Me</p>
      <div  className='flex flex-col md:flex-row gap-4 md:gap-8     bg-black'>
        <Card className=" bg-[#1C1C1C] text-white border-none w-full">

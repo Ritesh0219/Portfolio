@@ -7,39 +7,39 @@ import { SiExpress, SiTailwindcss } from 'react-icons/si'
 
 function Project() {
   return (
-    <div id='project' className='bg-black w-full flex flex-col gap-8 p-6  md:p-20'>
+    <div id='project' className='bg-black w-full pb-10 flex flex-col gap-8 px-4 md:p-20'>
       <p className='text-white   text-2xl md:text-4xl font-semibold'>Projects</p>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-6 items-center justify-center'>
+        <div className='grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-6 items-center justify-center'>
 
 
             <div class="max-w-sm bg-[#1C1C1C] rounded-3xl text-white">
               <a href="#">
                   <img class="rounded-t-lg" src="/Home.png" alt="" />
               </a>
-              <div class="p-5">
+              <div class="py-5 px-4">
                   <a href="#">
                       <h5 class="md:mb-2  text-xl md:text-2xl font-bold tracking-tight text-white dark:text-white">Home Services</h5>
                   </a>
                   <p class="mb-3 font-normal text-white dark:text-gray-400">Technologies Used</p>
-                  <div className='grid grid-cols-3 gap-2  items-center justify-center'>
-                    <div className='flex items-center justify-center gap-1 bg-red-600 p-2 rounded-full'>
-                        <FaHtml5 className='text-2xl' />
+                  <div className='grid grid-cols-3 md:grids-cols-3 gap-2  items-center justify-center'>
+                    <div className='flex items-center justify-center gap-1 bg-red-600 rounded-full px-3 py-2'>
+                        <FaHtml5 className='text-sm' />
                         <p>React</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-green-600 p-2 rounded-full'>
-                        <SiExpress className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-green-600 rounded-full px-3 py-2'>
+                        <SiExpress className='text-sm' />
                         <p>Express</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-blue-600 p-2 rounded-full'>
-                        <FaParagraph className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-blue-600 rounded-full px-3 py-2'>
+                        <FaParagraph className='text-sm' />
                         <p>Hygraph</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-yellow-600 p-2 rounded-full'>
-                        <FaClipboardCheck className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-yellow-600 rounded-full px-3 py-2'>
+                        <FaClipboardCheck className='text-sm' />
                         <p>Clerk</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-purple-600 p-2 rounded-full'>
-                        <SiTailwindcss className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-purple-600 rounded-full px-3 py-2'>
+                        <SiTailwindcss className='text-sm' />
                         <p>Tailwind</p> 
                     </div>
                   </div>
@@ -59,34 +59,34 @@ function Project() {
               <a href="#">
                   <img class="rounded-t-lg" src="/FileFlow.png" alt="" />
               </a>
-              <div class="p-5">
+              <div class="py-5 px-4">
                   <a href="#">
                       <h5 class="md:mb-2  text-xl md:text-2xl font-bold tracking-tight text-white dark:text-white">Home Services</h5>
                   </a>
                   <p class="mb-3 font-normal text-white dark:text-gray-400">Technologies Used</p>
-                  <div className='grid grid-cols-3 gap-2  items-center justify-center'>
-                    <div className='flex items-center justify-center gap-1 bg-red-600 p-2 rounded-full'>
-                        <FaHtml5 className='text-2xl' />
+                  <div className='grid grid-cols-3 md:grids-cols-3 gap-2  items-center justify-center'>
+                    <div className='flex items-center justify-center gap-1 bg-red-600 rounded-full px-3 py-2'>
+                        <FaHtml5 className='text-lg' />
                         <p>React</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-green-600 p-2 rounded-full'>
-                        <SiExpress className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-green-600 rounded-full px-3 py-2'>
+                        <SiExpress className='text-sm' />
                         <p>Express</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-blue-600 p-2 rounded-full'>
-                        <FaParagraph className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-blue-600 rounded-full px-3 py-2'>
+                        <FaParagraph className='text-sm' />
                         <p>Hygraph</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-yellow-600 p-2 rounded-full'>
-                        <FaClipboardCheck className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-yellow-600 rounded-full px-3 py-2'>
+                        <FaClipboardCheck className='text-sm' />
                         <p>Clerk</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-purple-600 p-2 rounded-full'>
-                        <SiTailwindcss className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-purple-600 rounded-full px-3 py-2'>
+                        <SiTailwindcss className='text-sm' />
                         <p>Tailwind</p>
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-pink-600 p-2 rounded-full'>
-                        <FaDatabase className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-pink-600 rounded-full px-3 py-2'>
+                        <FaDatabase className='text-sm' />
                         <p>FireBase</p> 
                     </div>
                   </div>
@@ -106,30 +106,30 @@ function Project() {
               <a href="#">
                   <img class="rounded-t-lg" src="/Home.png" alt="" />
               </a>
-              <div class="p-5">
+              <div class="py-5 px-4">
                   <a href="#">
                       <h5 class="md:mb-2  text-xl md:text-2xl font-bold tracking-tight text-white dark:text-white">Home Services</h5>
                   </a>
                   <p class="mb-3 font-normal text-white dark:text-gray-400">Technologies Used</p>
-                  <div className='grid grid-cols-3 gap-2  items-center justify-center'>
-                    <div className='flex items-center justify-center gap-1 bg-red-600 p-2 rounded-full'>
-                        <FaHtml5 className='text-2xl' />
+                  <div className='grid grid-cols-3 md:grids-cols-3 gap-2  items-center justify-center'>
+                    <div className='flex items-center justify-center gap-1 bg-red-600 rounded-full px-3 py-2'>
+                        <FaHtml5 className='text-sm' />
                         <p>React</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-green-600 p-2 rounded-full'>
-                        <SiExpress className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-green-600 rounded-full px-3 py-2'>
+                        <SiExpress className='text-sm' />
                         <p>Express</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-blue-600 p-2 rounded-full'>
-                        <FaParagraph className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-blue-600 rounded-full px-3 py-2'>
+                        <FaParagraph className='text-sm' />
                         <p>Hygraph</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-yellow-600 p-2 rounded-full'>
-                        <FaClipboardCheck className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-yellow-600 rounded-full px-3 py-2'>
+                        <FaClipboardCheck className='text-sm' />
                         <p>Clerk</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-purple-600 p-2 rounded-full'>
-                        <SiTailwindcss className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-purple-600 rounded-full px-4 py-2'>
+                        <SiTailwindcss className='text-sm' />
                         <p>Tailwind</p> 
                     </div>
                   </div>
@@ -148,34 +148,34 @@ function Project() {
               <a href="#">
                   <img class="rounded-t-lg" src="/FileFlow.png" alt="" />
               </a>
-              <div class="p-5">
+              <div class="py-5 px-4">
                   <a href="#">
                       <h5 class="md:mb-2  text-xl md:text-2xl font-bold tracking-tight text-white dark:text-white">Home Services</h5>
                   </a>
                   <p class="mb-3 font-normal text-white dark:text-gray-400">Technologies Used</p>
-                  <div className='grid grid-cols-3 gap-2  items-center justify-center'>
-                    <div className='flex items-center justify-center gap-1 bg-red-600 p-2 rounded-full'>
-                        <FaHtml5 className='text-2xl' />
+                  <div className='grid grid-cols-3 md:grids-cols-3 gap-2  items-center justify-center'>
+                    <div className='flex items-center justify-center gap-1 bg-red-600 rounded-full px-3 py-2'>
+                        <FaHtml5 className='text-sm' />
                         <p>React</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-green-600 p-2 rounded-full'>
-                        <SiExpress className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-green-600 rounded-full px-3 py-2'>
+                        <SiExpress className='text-sm' />
                         <p>Express</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-blue-600 p-2 rounded-full'>
-                        <FaVoicemail className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-blue-600 rounded-full px-3 py-2'>
+                        <FaVoicemail className='text-sm' />
                         <p>SendGrid</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-yellow-600 p-2 rounded-full'>
-                        <FaClipboardCheck className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-yellow-600 rounded-full px-3 py-2'>
+                        <FaClipboardCheck className='text-sm' />
                         <p>Clerk</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-purple-600 p-2 rounded-full'>
-                        <SiTailwindcss className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-purple-600 rounded-full px-3 py-2'>
+                        <SiTailwindcss className='text-sm' />
                         <p>Tailwind</p> 
                     </div>
-                    <div className='flex items-center justify-center gap-1 bg-pink-600 p-2 rounded-full'>
-                        <FaDatabase className='text-2xl' />
+                    <div className='flex items-center justify-center gap-1 bg-pink-600 rounded-full px-3 py-2'>
+                        <FaDatabase className='text-sm' />
                         <p>FireBase</p> 
                     </div>
                     

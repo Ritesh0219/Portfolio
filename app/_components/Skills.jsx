@@ -33,7 +33,7 @@ const TechList = () => (
     {techSkills.map((skill, index) => (
       <div 
         key={index} 
-        className={`${bgColors[index % bgColors.length]} tracking-tight text-sm md:text-md font-medium text-white md:font-semibold rounded-xl  md:rounded-2xl p-1 md:p-3 px-2 py-1 md:px-4  flex gap-2 justify-center items-center`}
+        className={`${bgColors[index % bgColors.length]} tracking-tight text-sm md:text-md font-medium text-white md:font-semibold rounded-xl  md:rounded-2xl  md:p-3  py-3 md:px-4  flex gap-2 justify-center items-center`}
       >
         <div className="text-sm md:text-4xl">{skill.icon}</div> {/* Display icon */}
         <p>{skill.name}</p> {/* Display skill name */}
