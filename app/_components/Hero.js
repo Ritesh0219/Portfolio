@@ -5,7 +5,7 @@ import React from 'react'
 function Hero() {
   return (
    <div className='bg-black md:h-[91.4vh] flex  gap-16 items-center justify-center w-full pt-8 md:p-20 '>
-      <div className='flex flex-col md:flex-row gap-16 items-center bg-black rounded-3xl justify-center p-10'>
+      <div className='flex flex-col md:flex-row gap-16 items-center bg-black rounded-3xl justify-center py-8 px-2 md:p-10'>
           <Image src='/Unifor.jpg' width={400} height={400} className='rounded-3xl hidden md:block'/>
           <textdiv className='flex flex-col gap-5  justify-center rounded-3xl p-4'>
               <text className='text-white text-6xl md:text-8xl font-bold tracking-tight  font-lato'>
