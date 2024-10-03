@@ -64,8 +64,9 @@ function About() {
           </CardContent>
         </Card>
         
-   </div>
-        <Card className="w-full bg-black text-white border-none">
+  </div>
+    <div>
+      <Card className=" bg-black text-white border-none">
           <CardHeader>
             <CardTitle className='text-2xl md:text-3xl tracking-tight'>Skills</CardTitle>
           </CardHeader>
@@ -73,6 +74,7 @@ function About() {
             <TechList />
           </CardContent>
         </Card>
+      </div>
   </div>
   )
 }
