@@ -7,14 +7,11 @@ import { SiInstagram, SiLinkedin } from 'react-icons/si'
 
 function Contact() {
   return (
-    <div id='contact' className='bg-black flex flex-col items-center mb-10  justify-center'>
-        <p className='text-4xl font-semibold text-white'>Contact</p>
-        <div className='flex gap-8 text-white mt-4 md:mt-6'>
+    <div id='contact' className='bg-black flex gap-7 items-center mb-15  md:mt-10 md:mb-10 justify-center'>
+      <h2 className='text-white font-semibold text-2xl'>Connect</h2>
        <a href='https://www.instagram.com/__riteshjadhav__/'> <SiInstagram className='cursor-pointer text-2xl md:text-4xl text-pink-500'/></a>
        <a href='https://www.linkedin.com/in/ritesh-jadhav-4079071b9/'>  <SiLinkedin className='cursor-pointer text-2xl md:text-4xl text-blue-600'/></a>
        <a href='https://github.com/Ritesh0219'> <FaGithub className='cursor-pointer text-2xl md:text-4xl text-gray-400'/></a>
-        </div>
-        
     </div>
   )
 }
