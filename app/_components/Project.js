@@ -7,7 +7,7 @@ import { SiExpress, SiTailwindcss } from 'react-icons/si'
 
 function Project() {
   return (
-    <div id='project' className='bg-black w-full pb-10 flex flex-col gap-8 px-4 md:p-20'>
+    <div id='project' className='bg-black w-full pb-10 flex flex-col gap-8 px-4 md:px-20'>
       <p className='text-white   text-2xl md:text-4xl font-semibold'>Projects</p>
         <div className='grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-6 items-center justify-center'>
 

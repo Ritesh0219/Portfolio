@@ -13,7 +13,7 @@ function Navbar() {
         <a href='#contact' className='hover:text-gray-400 cursor-pointer'>
         Connect  
         </a>
-        <Button className='bg-white text-black hover:bg-gray-400 rounded-3xl'>Resume</Button>
+        <a href='/Ritesh-Jadhav_Resume.pdf'  download='Ritesh-Jadhav_Resume.pdf'><Button className='bg-white text-black hover:bg-gray-400 rounded-3xl'>Resume</Button></a>
    </div>
   )
 }
