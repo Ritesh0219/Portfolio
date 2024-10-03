@@ -8,7 +8,7 @@ function Hero() {
       <div className='flex flex-col md:flex-row gap-16 items-center bg-black rounded-3xl justify-center py-8 px-2 md:p-10'>
           <Image src='/Unifor.jpg' width={400} height={400} className='rounded-3xl hidden md:block'/>
           <textdiv className='flex flex-col gap-5  justify-center rounded-3xl p-4'>
-              <text className='text-white text-7xl md:text-8xl font-bold tracking-tight  font-lato'>
+              <text className='text-white text-6xl md:text-8xl font-bold tracking-tight  font-lato'>
                   Welcome to my portfolio
               </text>
               <text className='text-white text-lg font-lato'>
